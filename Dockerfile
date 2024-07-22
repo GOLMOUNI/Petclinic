@@ -1,4 +1,4 @@
-FROM openjdk:11
-EXPOSE 8082
+FROM openjdk:17
+EXPOSE 8083
 ADD target/petclinic.war petclinic.war
-ENTRYPOINT ["java","-jar","/petclinic.war"]
+ENTRYPOINT exec java -jar /petclinic.war
