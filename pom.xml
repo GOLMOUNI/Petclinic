@@ -319,7 +319,7 @@
  <plugin>
         <groupId>org.owasp</groupId>
         <artifactId>dependency-check-maven</artifactId>
-        <version>INSERT_VERSION_HERE</version>
+        <version>10.0.3</version>
         <executions>
           <execution>
             <goals>
